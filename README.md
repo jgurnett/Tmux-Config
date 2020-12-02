@@ -15,5 +15,4 @@ Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 3. `cd .tmux/`
 4. Give script execute permissions: `chmod +x install.sh`
 5. `./install.sh`. This creates a symbolic link called `.tmux.conf` in your home directory, so you are free to edit the .vimrc in this repo and your changes will be observed.
-6. Open a tmux window and install plugins (<Prefix>+I)
-
+6. Open a tmux window and install plugins `<Prefix> + I`
