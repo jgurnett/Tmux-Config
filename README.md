@@ -12,7 +12,7 @@ Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 
 1. First make sure that you've backed up or removed your own tmux files (`.tmux.conf`, `.tmux/`).
 2. Clone the repo to your home directory: `git clone https://github.com/jgurnett/Tmux-Config.git ~/.tmux`
-3. cd .tmux/
+3. `cd .tmux/`
 4. Give script execute permissions: `chmod +x install.sh`
 5. `./install.sh`. This creates a symbolic link called `.tmux.conf` in your home directory, so you are free to edit the .vimrc in this repo and your changes will be observed.
 6. Open a tmux window and install plugins (<Prefix>+I)
