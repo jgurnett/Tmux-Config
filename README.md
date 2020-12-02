@@ -5,6 +5,7 @@ config so I am just adding as I go.
 if it fails let me know.
 
 Got design from [nord-tmux](https://github.com/arcticicestudio/nord-tmux)
+
 Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 
 ## Installation
