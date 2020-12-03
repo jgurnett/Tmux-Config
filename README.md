@@ -4,7 +4,7 @@ config so I am just adding as I go.
 
 if it fails let me know.
 
-Got design from [nord-tmux](https://github.com/arcticicestudio/nord-tmux)
+Got design from [odedlaz](https://github.com/odedlaz/tmux-onedark-theme)
 
 Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 
@@ -16,3 +16,9 @@ Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 4. Give script execute permissions: `chmod +x install.sh`
 5. `./install.sh`. This creates a symbolic link called `.tmux.conf` in your home directory, so you are free to edit the .vimrc in this repo and your changes will be observed.
 6. Open a tmux window and install plugins `<Prefix> + I`
+
+
+### Extras
+For WSL
+* uncomment `source "/usr/share/powerline/bindings/tmux/powerline.conf`
+* follow [these](https://devpro.media/install-powerline-windows/) instructions.
