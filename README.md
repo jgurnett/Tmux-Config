@@ -18,7 +18,7 @@ Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 6. Open a tmux window and install plugins `<Prefix> + I`
 
 
-### Extras
+## Extras
 For WSL
-* uncomment `source "/usr/share/powerline/bindings/tmux/powerline.conf`
+* uncomment `source "/usr/share/powerline/bindings/tmux/powerline.conf` in tmux.conf
 * follow [these](https://devpro.media/install-powerline-windows/) instructions.
