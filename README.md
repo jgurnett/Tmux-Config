@@ -16,9 +16,10 @@ Plugin management with [tpm](https://github.com/tmux-plugins/tpm)
 4. Give script execute permissions: `chmod +x install.sh`
 5. `./install.sh`. This creates a symbolic link called `.tmux.conf` in your home directory, so you are free to edit the .vimrc in this repo and your changes will be observed.
 6. Open a tmux window and install plugins `<Prefix> + I`
-
+7. change the font of your terminal to DejaVu Sans Mono for Powerline
 
 ## Extras
 For WSL
 * uncomment `source "/usr/share/powerline/bindings/tmux/powerline.conf` in tmux.conf
 * follow [these](https://devpro.media/install-powerline-windows/) instructions.
+
